@@ -1,0 +1,39 @@
+.gallery{
+    padding:80px 8%;
+    background:#080807;
+    text-align:center;
+}
+.gallery h4{
+    color:#b58f78;
+    font-size:40px;
+}
+.gallery h1{
+    margin:15px 0 40px;
+    color:#fef4e9;
+}
+.gallery-slider{
+    display:flex;
+    overflow-x:auto;
+    gap:20px;
+    scroll-behavior:smooth;
+    padding-bottom:20px;
+}
+.gallery-slider::-webkit-scrollbar{
+    height:8px;
+}
+.gallery-slider::-webkit-scrollbar-thumb{
+    background:#b6917b;
+    border-radius:20px;
+}
+.gallery-slider img{
+    min-width:350px;
+    height:450px;
+    object-fit:cover;
+    border-radius:20px;
+    transition:.3s;
+}
+.gallery-slider img:hover{
+
+    transform:scale(1.05);
+
+}

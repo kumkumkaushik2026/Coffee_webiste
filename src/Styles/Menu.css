@@ -1,0 +1,76 @@
+.menu{
+    min-height:100vh;
+    padding:80px 8%;
+    background:#070707;
+    text-align:center;
+    
+}
+
+.menu h4{
+    color:#d4a762;
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.menu h1{
+    font-size:45px;
+    color:#e5dbd0;
+    margin-bottom:50px;
+}
+.menu-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+.menu-card{
+   background: rgba(182, 145, 123, 0.6);
+   /* background: rgba(182, 145, 123, 0.45);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px); */
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+    transition:0.3s ease;
+    
+}
+
+.menu-card:hover{
+    transform:translateY(-10px);
+}
+
+.menu-card img{
+    width:180px;
+    height:180px;
+    object-fit:contain;
+}
+
+.menu-card h2{
+    margin-top:20px;
+    color:#120a03;
+}
+
+.menu-card h3{
+    color:#1e1201;
+    margin:10px 0;
+}
+
+.menu-card p{
+    color:#cdc8b4;
+    margin-bottom:20px;
+    line-height:1.6;
+}
+
+.menu-card button{
+    background:#2b1d0e;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:30px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.menu-card button:hover{
+    background:#d4a762;
+}
+
